@@ -1,18 +1,32 @@
-#title {
+.title {
     color: green;
     
 }
-#princ{
-
-    display: block;                 
-    margin-left: auto;
-    margin-right: auto;
-    width: 80px;
-    height: 60px;
+.side{
+  display: inline-block;
 }
-body{
+.princ{
+ 
+                  
+    margin-left: 50%;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+   
+    
+}
+#paragraf1{
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-right: 60%;
+  background-color: rgb(228, 222, 233);
+  border-radius: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+.body{
 
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(28, 206, 250);
 }
 /* The navigation bar */
 .navbar {
@@ -41,5 +55,6 @@ body{
   
   /* Main content */
   .main {
+    
     margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
